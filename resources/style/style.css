@@ -812,10 +812,13 @@ section .container .owl-nav{
 
 
 .contact-social{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
     width: 100%;
     min-height: 120px;
     margin: 0px 50%;
-    /* border: 2px rgb(18, 243, 93) solid; */
 }
 
 .contact-social h4{
