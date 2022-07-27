@@ -813,19 +813,21 @@ section .container .owl-nav{
 
 .contact-social{
     width: 100%;
-    margin: 10px 50%;
+    min-height: 120px;
+    margin: 0px 50%;
     /* border: 2px rgb(18, 243, 93) solid; */
 }
 
 .contact-social h4{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 30PX;
 }
 
 .contact-social i{
     margin: 5% 2%;
 }
+
 .contact-social .icon{
     font-size: 22px;
     padding: 15px;
@@ -837,9 +839,8 @@ section .container .owl-nav{
 /* =============================================================================== */
 .footer{
     font-size: 12px;
-    height: 80px;
+    height: 90px;
     top: 0;
-    border: 3px solid;
     color: white;
     /* background-color: #000000; */
     background-image: linear-gradient(180deg, #000000 70%, #885656 90%);
