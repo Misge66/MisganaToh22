@@ -719,7 +719,6 @@ section .container .owl-nav{
 .cont_hint h3{
     opacity: 0;
     font-size: 18px;
-    
 }
 
  .contact-container:hover .cont_hint h3{
@@ -729,9 +728,7 @@ section .container .owl-nav{
     padding: 22px;
     /* color: rgb(29, 9, 86); */
     transition: 0.3s all linear;
-    
  }
-
 
 
 .form-box{
@@ -809,8 +806,6 @@ section .container .owl-nav{
 }
 
 
-
-
 .contact-social{
     /* display: flex; */
     justify-content: center;
@@ -820,6 +815,12 @@ section .container .owl-nav{
     min-height: 120px;
     margin: 0px 50%;
     /* border: 2px rgb(18, 243, 93) solid; */
+}
+
+
+.contact-icon{
+    margin: 0px 30%;
+    width: 100%;
 }
 
 .contact-social h4{
@@ -840,6 +841,10 @@ section .container .owl-nav{
     color: #000000;
 }
 
+.contact-social .icon:hover{
+    font-size: 31px;
+    border: 2px solid rgb(0, 0, 0);
+}
 /* =============================================================================== */
 .footer{
     font-size: 12px;

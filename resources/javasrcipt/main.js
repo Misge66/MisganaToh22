@@ -51,7 +51,7 @@ $(document).ready(function(){
 
     });
 
-    // AOS.init();
+    AOS.init();
 
     // scrolling button to up
     $(window).scroll(function(){
